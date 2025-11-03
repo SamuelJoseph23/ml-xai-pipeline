@@ -44,9 +44,3 @@ python xai.py
 - Check the top of both scripts if you need to adjust filenames or parameters.
 - The HTML explanation files are viewable in any browser for human-readable model insights.
 - Make sure Python 3.x is installed.
-
----
-
-**Enjoy understanding and evaluating your ML models, end-to-end, with both performance and interpretability outputs!**
-
----
