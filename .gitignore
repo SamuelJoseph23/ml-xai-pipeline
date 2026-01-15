@@ -1,0 +1,27 @@
+# Python Environment
+venv/
+.env
+.venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data files (CSV is ignored by default as results/raw data should not be in git)
+*.csv
+!device1_sample_features.csv # Example of how to keep a small sample if needed
+
+# ML/XAI Outputs
+*.html
+*.png
+*.log
+
+# IDE Settings
+.vscode/
+.idea/
+.DS_Store
+
+# Brain/Artifacts (AI Assistant metadata)
+.gemini/
+.antigravity/
+brain/
