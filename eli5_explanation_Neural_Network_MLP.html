@@ -1,0 +1,583 @@
+
+        <html>
+        <head>
+            <title>ELI5 Explanation for Neural Network (MLP)</title>
+            <style>
+                body {font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f9;}
+                .container {max-width: 1000px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);}
+                h1 {color: #333; border-bottom: 2px solid #3498db; padding-bottom: 10px;}
+                h2 {color: #2c3e50; margin-top: 30px;}
+                .eli5-explanation {margin-bottom: 40px; overflow-x: auto;}
+                pre {background: #eee; padding: 15px; border-radius: 4px;}
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>ELI5 Explanation for Neural Network (MLP)</h1>
+                <h2>Global Feature Importance / Decision Summary</h2>
+                <div class="eli5-explanation">
+    <style>
+    table.eli5-weights tr:hover {
+        filter: brightness(85%);
+    }
+</style>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+    <div style="background-color: #fdd; padding: 0.5em;">
+        Error: estimator MLPClassifier(early_stopping=True, hidden_layer_sizes=(128, 64, 32),
+              max_iter=500, random_state=42) is not supported
+    </div>
+</div>
+                <hr>
+                <h2>Local Example Predictions</h2>
+                <div class="eli5-explanation"><h3>Example Prediction 1</h3>
+    <style>
+    table.eli5-weights tr:hover {
+        filter: brightness(85%);
+    }
+</style>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+    <div style="background-color: #fdd; padding: 0.5em;">
+        Error: estimator MLPClassifier(early_stopping=True, hidden_layer_sizes=(128, 64, 32),
+              max_iter=500, random_state=42) is not supported
+    </div>
+</div><div class="eli5-explanation"><h3>Example Prediction 2</h3>
+    <style>
+    table.eli5-weights tr:hover {
+        filter: brightness(85%);
+    }
+</style>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+    <div style="background-color: #fdd; padding: 0.5em;">
+        Error: estimator MLPClassifier(early_stopping=True, hidden_layer_sizes=(128, 64, 32),
+              max_iter=500, random_state=42) is not supported
+    </div>
+</div><div class="eli5-explanation"><h3>Example Prediction 3</h3>
+    <style>
+    table.eli5-weights tr:hover {
+        filter: brightness(85%);
+    }
+</style>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+    <div style="background-color: #fdd; padding: 0.5em;">
+        Error: estimator MLPClassifier(early_stopping=True, hidden_layer_sizes=(128, 64, 32),
+              max_iter=500, random_state=42) is not supported
+    </div>
+</div><div class="eli5-explanation"><h3>Example Prediction 4</h3>
+    <style>
+    table.eli5-weights tr:hover {
+        filter: brightness(85%);
+    }
+</style>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+    <div style="background-color: #fdd; padding: 0.5em;">
+        Error: estimator MLPClassifier(early_stopping=True, hidden_layer_sizes=(128, 64, 32),
+              max_iter=500, random_state=42) is not supported
+    </div>
+</div><div class="eli5-explanation"><h3>Example Prediction 5</h3>
+    <style>
+    table.eli5-weights tr:hover {
+        filter: brightness(85%);
+    }
+</style>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+    <div style="background-color: #fdd; padding: 0.5em;">
+        Error: estimator MLPClassifier(early_stopping=True, hidden_layer_sizes=(128, 64, 32),
+              max_iter=500, random_state=42) is not supported
+    </div>
+</div>
+            </div>
+        </body>
+        </html>
+        
